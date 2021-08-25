@@ -1,0 +1,8 @@
+Complied & tested on gcc 9.3.0-17ubuntu1~20.04
+To compile, use make in every dirctory.
+
+C part code is in D folder as convert.C
+
+D part is working.
+
+E part is working. Take some time to generate random number.

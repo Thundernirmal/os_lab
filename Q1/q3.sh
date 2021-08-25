@@ -1,0 +1,1 @@
+grep "friend[a-zA-Z]*" example.txt

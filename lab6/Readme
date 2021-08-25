@@ -1,0 +1,20 @@
+Tested and complid on g++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)
+
+For A part;
+To complie B part use "A.sh" file
+
+To run A part use :Use this like : ./memory 3 1 2 3 4 5 6 7 1
+Here 1st arugument is number of frames (3)and followed by Reference string each sperated by space(1 2 3 4 5 6 7 1)
+
+For example "A.png"
+
+For Belady's Anomaly test use "src.sh" it will give output as "A-2.png"
+In that we can clearly see that for string 1 2 3 4 1 2 5 1 2 3 4 5 when we go 3 frames to 4 page faluts increases.
+
+
+For B part;
+To complie B part use "B.sh" file
+TO run B part use "./banker"
+
+It will take input from stdio and give output
+For example "B.png"

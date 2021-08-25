@@ -1,0 +1,16 @@
+complied & tested on g++ 9.3.0-17ubuntu1~20.04
+
+To complie run "make"
+
+To run just a part use like "./A <N>" as example ./A 10 it gave output in "10" number of  thread
+
+1st it will creat total N thread in which half are producer and half are consumer
+
+2nd it has signal handler that put thread to sleep and wait for wake up call
+
+3rd every time when ever any thread access shared buff, only one thread can access because of mutex lock
+
+4th SCHEDULER thread will give 1 sec to every thread in a round-robin scheduling and it only allow one thread at time.
+
+in result buff size will be in multiply of 1000 because when ever context swich accur it 1st producer store 1000 numbers in buff and for in 1 sec
+consumer remove all the elements.
